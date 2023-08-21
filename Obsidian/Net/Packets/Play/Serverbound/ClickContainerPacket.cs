@@ -71,6 +71,7 @@ public partial class ClickContainerPacket : IServerboundPacket
                 {
                     if (CarriedItem == null)
                         return;
+                        
                     await HandleMouseClick(container, server, player, slot);
                     break;
                 }
